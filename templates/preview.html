@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"/>
+
+    <link href="../static/css/my_css.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+</style>
+
+<body>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Preview</h3>
+
+                    <p>Your post is ready!</p>
+
+                    <img src="{{ url_for('static', filename=img_src) }}" width="300" id="preview_image"/>
+
+
+                    <form>
+                        <input type="button" value="Download" class="btn btn-primary" data-inline="true"
+                               id="download_btn">
+
+                        <input type="button" value="Edit" class="btn btn-secondary" onclick="history.back()"
+                               data-inline="true">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+        $("#download_btn").click(function() {
+            console.info("in download")
+            var src = document.getElementById("preview_image").src;
+            console.info(src)
+            var actual_src = src.split("/")[4];
+            console.info(actual_src)
+            window.location.href = "/download/" + actual_src;
+            window.open("/next","_blank")
+        })
+
+
+</script>
+</body>
+
+</html>
