@@ -18,13 +18,4 @@ Crop your image as shown in this video: https://youtu.be/V5Vlw1h_nVc
 
 2. Introduction should not end with names and course details as shown in the image below:<br><br>![image](https://user-images.githubusercontent.com/60831483/147559413-32e32b4e-ef7f-4e7a-be0b-3450f1cdeabb.png)
 
-Reading this pdf will save your and my time. So, if you have just scrolled down without reading, please read the whole pdf.
-
-I hope you have read the entire pdf.
-
-Fill the below form so that I could design your insta post. If you have any doubt filling the form message in the group or ask me privately (my number is 8975803664).
-
-Link to the form: https://forms.gle/FyMhk2NgGxqbCcnK8
-
-NOTE: NO responses will be accepted after 28 December 2021, 11 P.M. (IST). So, if you have 2 minutes now, kindly fill the above form.
 </font>
