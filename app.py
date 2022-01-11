@@ -47,12 +47,12 @@ def upload():
 
 @app.route("/", methods=["POST", "GET"])
 def home():
-    return redirect(url_for("design"))
+    return render_template("home_page.html")
 
 
-@app.route("/design")
+@app.route("/design", methods=["POST", "GET"])
 def design():
-    return render_template("index.html")
+    return render_template("design.html")
 
 
 @app.route("/preview", methods=["POST", "GET"])
@@ -76,4 +76,3 @@ def preview():
         return render_template("preview.html", img_src=f"place_holder.png")
 
     return render_template("preview.html", img_src=f"{full_name}_{insta_id}.png")
-    
