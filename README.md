@@ -15,7 +15,7 @@ You will also be tagged in the post. So, kindly follow this insta page or else w
 
 
 
-## Instructions for uploading images and introductions
+## Instructions for uploading images and introductions:
 1. The image should have aspect ratio of 1:1 and the face of the student should be in the left half of the photo.
 ![unnamed](https://user-images.githubusercontent.com/60831483/146666924-11811627-deb4-4e05-a79f-1968f7513849.png)
 <br>Correct image<br><br><br>
